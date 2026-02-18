@@ -7,7 +7,7 @@ const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
-      <h1 style={{ marginBottom: 20, fontSize: '2rem', fontWeight: 'bold' }}>Bom dia!</h1>
+      <h1 className="greeting">Bom dia!</h1>
       <Button
         type="primary"
         onClick={() => setIsModalOpen(true)}
